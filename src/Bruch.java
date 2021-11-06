@@ -3,7 +3,8 @@ public class Bruch {
     private int denominator; // Nenner
 
     public Bruch(int numerator, int denominator) {
-        // TODO: Setzen Sie die Attribute entsprechend
+        this.numerator = numerator;
+        this.denominator = denominator;
     }
 
     public int getNumerator() {
@@ -15,13 +16,13 @@ public class Bruch {
     }
 
     public double toDecimal() {
-        // TODO: Die Methode soll den Dezimalwert zum Bruch retournieren
-        // Achtung: Ganzzahldivision!
+
         return 0;
     }
 
     public String print() {
         // TODO: Die Methode soll den Bruch als Text retournieren z.B.: "5 / 7"
+
         return "";
     }
 
@@ -33,6 +34,7 @@ public class Bruch {
         *   => Selbige auch für denominator
         *  Retournieren Sie ihre neue Bruch-Variable
         * */
+
 
 
         return null;
