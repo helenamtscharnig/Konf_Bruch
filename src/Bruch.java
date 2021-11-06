@@ -16,8 +16,8 @@ public class Bruch {
     }
 
     public double toDecimal() {
-
-        return 0;
+        double decimal = numerator / denominator;
+        return decimal;
     }
 
     public String print() {
